@@ -7,15 +7,15 @@ module.exports = {
   nativeX,
   logos: {
     navbar: {
-      src: 'https://base.imgix.net/files/base/bizbash/bzb/image/static/logo/BB_Logo_white_hires.png?h=60',
+      src: 'https://p1-cms-assets.imgix.net/files/base/bizbash/bzb/image/static/logo/BB_Logo_white_hires.png?h=60',
       srcset: [
-        'https://base.imgix.net/files/base/bizbash/bzb/image/static/logo/BB_Logo_white_hires.png?h=120 2x',
+        'https://p1-cms-assets.imgix.net/files/base/bizbash/bzb/image/static/logo/BB_Logo_white_hires.png?h=120 2x',
       ],
     },
     footer: {
-      src: 'https://base.imgix.net/files/base/bizbash/bzb/image/static/bizbash-new-footer.png?h=80',
+      src: 'https://p1-cms-assets.imgix.net/files/base/bizbash/bzb/image/static/bizbash-new-footer.png?h=80',
       srcset: [
-        'https://base.imgix.net/files/base/bizbash/bzb/image/static/bizbash-new-footer.png?h=160 2x',
+        'https://p1-cms-assets.imgix.net/files/base/bizbash/bzb/image/static/bizbash-new-footer.png?h=160 2x',
       ],
     },
   },
@@ -111,7 +111,7 @@ module.exports = {
   contactUs: {
     branding: {
       bgColor: '#005ea0', // @todo Move to styling!
-      logo: 'https://base.imgix.net/files/base/bizbash/bzb/image/static/logo/site_logo.png?h=60',
+      logo: 'https://p1-cms-assets.imgix.net/files/base/bizbash/bzb/image/static/logo/site_logo.png?h=60',
     },
   },
   inquiry: {
@@ -119,8 +119,7 @@ module.exports = {
     directSend: true,
     sendTo: 'connect@bizbash.com',
     sendFrom: 'BizBash.com <noreply@bizbash.com>',
-    sendBcc: 'emailactivity@cygnus.com',
-    logo: 'https://base.imgix.net/files/base/bizbash/bzb/image/static/logo/site_logo.png?h=60',
+    logo: 'https://p1-cms-assets.imgix.net/files/base/bizbash/bzb/image/static/logo/site_logo.png?h=60',
     bgColor: '#25292d', // @todo Move to styling!
     blockedEmails: [
       'salmanibhram@gmail.com',
