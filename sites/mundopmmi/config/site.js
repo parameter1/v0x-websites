@@ -20,15 +20,15 @@ module.exports = {
   },
   logos: {
     navbar: {
-      src: 'https://base.imgix.net/files/base/pmmi/mundo/MundoPMMI_logo_White_notag.png?h=80',
+      src: 'https://img.mundopmmi.com/files/base/pmmi/mundo/MundoPMMI_logo_White_notag.png?h=80',
       srcset: [
-        'https://base.imgix.net/files/base/pmmi/mundo/MundoPMMI_logo_White_notag.png?h=160 2x',
+        'https://img.mundopmmi.com/files/base/pmmi/mundo/MundoPMMI_logo_White_notag.png?h=160 2x',
       ],
     },
     footer: {
-      src: 'https://base.imgix.net/files/base/pmmi/mundo/footerLogos_white.png?h=60',
+      src: 'https://img.mundopmmi.com/files/base/pmmi/mundo/footerLogos_white.png?h=60',
       srcset: [
-        'https://base.imgix.net/files/base/pmmi/mundo/footerLogos_white.png?h=120 2x',
+        'https://img.mundopmmi.com/files/base/pmmi/mundo/footerLogos_white.png?h=120 2x',
       ],
     },
   },
@@ -98,7 +98,7 @@ module.exports = {
   contactUs: {
     branding: {
       bgColor: '#1c496d',
-      logo: 'https://base.imgix.net/files/base/pmmi/mundo/logo.png?h=60',
+      logo: 'https://img.mundopmmi.com/files/base/pmmi/mundo/logo.png?h=60',
     },
   },
 };
