@@ -81,10 +81,10 @@ $ const adSlots = {
       <endeavor-gam-ad-unit-display id="gpt-ad-rail1" />
     </div>
     <div class="col-lg-4 mb-block">
-      <website-scheduled-content-list query={ sectionAlias: "local-venues-destinations", limit: 5, queryFragment: contentListFragment  } item-list={ modifiers: ["height-100"] }>
-        <@header href="/local-venues-destinations">Venues & Destinations</@header>
+      <website-scheduled-content-list query={ sectionAlias: "venues-destinations", limit: 5, queryFragment: contentListFragment  } item-list={ modifiers: ["height-100"] }>
+        <@header href="/venues-destinations">Venues & Destinations</@header>
         <@item|{ node, index }|>
-          <bizbash-list-item content=node native-x-render={ when: index === 4, name: "primary", aliases: ["local-venues-destinations"] } />
+          <bizbash-list-item content=node native-x-render={ when: index === 4, name: "primary", aliases: ["venues-destinations"] } />
         </@item>
       </website-scheduled-content-list>
     </div>
