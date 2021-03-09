@@ -10,7 +10,7 @@ const supplierDirectory = require('../templates/website-section/supplier-directo
 const venueDirectory = require('../templates/website-section/venue-directory');
 const bermudaTemplate = require('../templates/website-section/bermuda');
 const industryBuzzTemplate = require('../templates/website-section/industry-buzz');
-const localVenuesDestinationsTemplate = require('../templates/website-section/local-venues-destinations');
+const venuesDestinationsTemplate = require('../templates/website-section/venues-destinations');
 const bizbashListsTemplate = require('../templates/website-section/bizbash-lists');
 
 module.exports = (app) => {
@@ -49,8 +49,8 @@ module.exports = (app) => {
     queryFragment,
   }));
 
-  app.get('/:alias(local-venues-destinations)', withWebsiteSection({
-    template: localVenuesDestinationsTemplate,
+  app.get('/:alias(venues-destinations)', withWebsiteSection({
+    template: venuesDestinationsTemplate,
     queryFragment,
   }));
 
