@@ -1,6 +1,21 @@
 const ads = require('./ads');
 const nativeX = require('./native-x');
 
+const topics = [
+  { href: '/production-strategy', label: 'Production & Strategy' },
+  { href: '/catering-design', label: 'Catering & Design' },
+  { href: '/event-tech-virtual', label: 'Event Tech & Virtual' },
+  { href: '/venues-destinations', label: 'Venues & Destinations' },
+  { href: '/bizbash-lists', label: 'Bizbash Lists' },
+];
+
+const footerItems = [
+  { href: '/page/advertise', label: 'Advertise' },
+  { href: '/page/about-us', label: 'About Us' },
+  { href: '/page/contact-us', label: 'Contact Us' },
+  { href: '/page/privacy-policy', label: 'Privacy Policy' },
+];
+
 module.exports = {
   company: 'BizBash Media, Inc',
   ads,
@@ -27,13 +42,7 @@ module.exports = {
   ],
   navigation: {
     primary: {
-      items: [
-        { href: '/production-strategy', label: 'Production & Strategy' },
-        { href: '/catering-design', label: 'Catering & Design' },
-        { href: '/event-tech-virtual', label: 'Event Tech & Virtual' },
-        { href: '/venues-destinations', label: 'Venues & Destinations' },
-        { href: '/bizbash-lists', label: 'Bizbash Lists' },
-      ],
+      items: topics,
     },
     secondary: {
       items: [
@@ -48,23 +57,12 @@ module.exports = {
       ],
     },
     footer: {
-      items: [
-        { href: '/page/about-us', label: 'About Us' },
-        { href: '/page/contact-us', label: 'Contact Us' },
-        { href: '/page/advertise', label: 'Advertise' },
-        { href: '/page/privacy-policy', label: 'Privacy Policy' },
-      ],
+      items: footerItems,
     },
     menu: {
       topics: {
         label: 'Topics',
-        items: [
-          { href: '/production-strategy', label: 'Production & Strategy' },
-          { href: '/catering-design', label: 'Catering & Design' },
-          { href: '/event-tech-virtual', label: 'Event Tech & Virtual' },
-          { href: '/venues-destinations', label: 'Venues & Destinations' },
-          { href: '/bizbash-lists', label: 'Bizbash Lists' },
-        ],
+        items: topics,
       },
       resources: {
         label: 'Resources',
@@ -85,10 +83,7 @@ module.exports = {
         label: 'User Tools',
         items: [
           { href: 'http://www.pages03.net/collinsonpublishing/BizBashBuzz/', label: 'Subscribe' },
-          { href: '/page/advertise', label: 'Advertise' },
-          { href: '/page/about-us', label: 'About Us' },
-          { href: '/page/contact-us', label: 'Contact Us' },
-          { href: '/page/privacy-policy', label: 'Privacy Policy' },
+          ...footerItems,
         ],
       },
     },
