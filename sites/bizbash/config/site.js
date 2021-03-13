@@ -13,7 +13,7 @@ const footerItems = [
   { href: 'https://www.pages03.net/collinsonpublishing/BizBashBuzz/', label: 'Subscribe', target: '_blank' },
   { href: '/venue-directory', label: 'Find a Venue' },
   { href: '/supplier-directory', label: 'Find a Supplier' },
-  { href: '/careers', label: 'Careers' },
+  // { href: '/careers', label: 'Careers' },
 ];
 
 module.exports = {
