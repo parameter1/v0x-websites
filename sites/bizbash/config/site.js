@@ -50,7 +50,7 @@ module.exports = {
         { href: '/gathergeeks', label: 'Podcast' },
         { href: '/webinars', label: 'Webinars' },
         { href: '/page/our-events', label: 'Events & Awards' },
-        { href: '/whitepapers', label: 'White Papers' },
+        { href: '/white-papers', label: 'White Papers' },
         { href: '/magazine/5b2a4e6c0305572b008b45ae', label: 'Magazines' },
         { href: 'https://www.bizbashlive.com/advertise', label: 'Advertise', target: '_blank' },
         { href: 'https://www.pages03.net/collinsonpublishing/BizBashBuzz/', label: 'Subscribe', target: '_blank' },
