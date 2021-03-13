@@ -10,10 +10,10 @@ const topics = [
 ];
 
 const footerItems = [
-  { href: '/page/advertise', label: 'Advertise' },
-  { href: '/page/about-us', label: 'About Us' },
-  { href: '/page/contact-us', label: 'Contact Us' },
-  { href: '/page/privacy-policy', label: 'Privacy Policy' },
+  { href: 'https://www.pages03.net/collinsonpublishing/BizBashBuzz/', label: 'Subscribe', target: '_blank' },
+  { href: '/venue-directory', label: 'Find a Venue' },
+  { href: '/supplier-directory', label: 'Find a Supplier' },
+  { href: '/careers', label: 'Careers' },
 ];
 
 module.exports = {
@@ -39,6 +39,7 @@ module.exports = {
     { provider: 'linkedin', href: 'https://www.linkedin.com/company/bizbash' },
     { provider: 'twitter', href: 'https://twitter.com/BizBash' },
     { provider: 'facebook', href: 'https://www.facebook.com/BizBash/' },
+    { provider: 'pinterest', href: 'https://www.pinterest.com/bizbash/' },
   ],
   navigation: {
     primary: {
@@ -46,14 +47,13 @@ module.exports = {
     },
     secondary: {
       items: [
-        { href: '/gathergeeks', label: 'GatherGeeks' },
-        { href: '/page/our-events', label: 'Our Events & Awards' },
-        { href: 'http://www.pages03.net/collinsonpublishing/ListYourBusiness/', label: 'List Your Biz', target: '_blank' },
-        { href: '/venue-directory', label: 'Find A Venue', modifiers: ['white'] },
-        { href: '/supplier-directory', label: 'Find Suppliers', modifiers: ['white'] },
-        { href: '/magazine/5b2a4e6c0305572b008b45ae', label: 'Our Publications' },
-        { href: 'http://www.masterplanneronline.com', label: 'Masterplanner', target: '_blank' },
-        { href: 'https://www.bizbashvirtualsitevisits.com', label: 'Virtual Site Visits', target: '_blank' },
+        { href: '/gathergeeks', label: 'Podcast' },
+        { href: '/webinars', label: 'Webinars' },
+        { href: '/page/our-events', label: 'Events & Awards' },
+        { href: '/whitepapers', label: 'White Papers' },
+        { href: '/magazine/5b2a4e6c0305572b008b45ae', label: 'Magazines' },
+        { href: 'https://www.bizbashlive.com/advertise', label: 'Advertise', target: '_blank' },
+        { href: 'https://www.pages03.net/collinsonpublishing/BizBashBuzz/', label: 'Subscribe', target: '_blank' },
       ],
     },
     footer: {
@@ -68,23 +68,19 @@ module.exports = {
         label: 'Resources',
         items: [
           { href: '/eventplannerschoice', label: "Event Planner's Choice" },
-          { href: '/gathergeeks', label: 'GatherGeeks' },
-          { href: '/page/our-events', label: 'Our Events & Awards' },
+          { href: '/gathergeeks', label: 'Podcast' },
+          { href: '/page/our-events', label: 'Events & Awards' },
           { href: 'http://www.pages03.net/collinsonpublishing/ListYourBusiness/', label: 'List Your Biz', target: '_blank' },
           { href: '/venue-directory', label: 'Find A Venue' },
           { href: '/supplier-directory', label: 'Find Suppliers' },
           { href: '/bermuda', label: 'Bermuda Event Planner\'s Guide' },
-          { href: '/magazine/5b2a4e6c0305572b008b45ae', label: 'Our Publications' },
-          { href: 'http://www.masterplanneronline.com', label: 'Masterplanner', target: '_blank' },
+          { href: '/magazine/5b2a4e6c0305572b008b45ae', label: 'Magazines' },
           { href: '/production-strategy/virtual-events', label: 'Virtual Events' },
         ],
       },
       userTools: {
         label: 'User Tools',
-        items: [
-          { href: 'http://www.pages03.net/collinsonpublishing/BizBashBuzz/', label: 'Subscribe' },
-          ...footerItems,
-        ],
+        items: footerItems,
       },
     },
   },
