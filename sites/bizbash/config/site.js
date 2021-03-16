@@ -56,7 +56,7 @@ module.exports = {
         { href: 'https://www.pages03.net/collinsonpublishing/BizBashBuzz/', label: 'Subscribe', target: '_blank' },
       ],
     },
-    footer: {
+    'sticky-footer': {
       items: footerItems,
     },
     menu: {

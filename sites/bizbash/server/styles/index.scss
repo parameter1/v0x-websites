@@ -178,6 +178,7 @@ $theme-carousel-caption-background: rgba(0, 0, 0, .75);
 @import "../../node_modules/bootstrap/scss/tables";
 @import "components/directory";
 @import "components/carousel";
+@import "components/sticky-footer";
 
 body {
   letter-spacing: $bizbash-letter-spacing;
@@ -257,6 +258,12 @@ body {
         }
       }
     }
+  }
+}
+
+.site-footer {
+  &__container {
+    padding-bottom: .25rem;
   }
 }
 
