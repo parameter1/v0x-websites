@@ -230,6 +230,10 @@ body {
   }
 }
 
+.site-navbar-menu {
+  width: 350px;
+}
+
 .site-navbar-items {
   $self: &;
   &--primary {
