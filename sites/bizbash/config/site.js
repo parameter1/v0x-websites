@@ -6,7 +6,7 @@ const topics = [
   { href: '/catering-design', label: 'Catering & Design' },
   { href: '/event-tech-virtual', label: 'Event Tech & Virtual' },
   { href: '/venues-destinations', label: 'Venues & Destinations' },
-  { href: '/bizbash-lists', label: 'Bizbash Lists' },
+  { href: '/bizbash-lists', label: 'BizBash Lists' },
 ];
 
 const footerItems = [
