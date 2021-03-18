@@ -81,7 +81,7 @@ module.exports = {
       resources: {
         label: 'Other Resources',
         items: [
-          { href: '/gathergeeks', label: 'Gather Geeks Podcast' },
+          { href: '/gathergeeks', label: 'GatherGeeks Podcast' },
           { href: '/webinars', label: 'Webinars' },
           { href: '/page/our-events', label: 'Events & Awards' },
           { href: '/magazine/5b2a4e6c0305572b008b45ae', label: 'Magazines' },
