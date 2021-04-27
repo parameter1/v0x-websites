@@ -42,6 +42,22 @@ $ const adSlots = {
 
   <div class="row">
     <div class="col-lg-4 mb-block">
+      <website-scheduled-content-list query={ sectionAlias: "catering-design/beverages", limit: 5, queryFragment: contentListFragment } item-list={ modifiers: ["height-100"] }>
+        <@header href="/catering-design/beverages">Beverages</@header>
+        <@item|{ node }|>
+          <bizbash-list-item content=node />
+        </@item>
+      </website-scheduled-content-list>
+    </div>
+    <div class="col-lg-4 mb-block">
+      <website-scheduled-content-list query={ sectionAlias: "catering-design/food-trends", limit: 5, queryFragment: contentListFragment } item-list={ modifiers: ["height-100"] }>
+        <@header href="/catering-design/food-trends">Food Trends</@header>
+        <@item|{ node }|>
+          <bizbash-list-item content=node />
+        </@item>
+      </website-scheduled-content-list>
+    </div>
+    <div class="col-lg-4 mb-block">
       <website-scheduled-content-list query={ sectionAlias: "catering-design/event-design-decor", limit: 5, queryFragment: contentListFragment } item-list={ modifiers: ["height-100"] }>
         <@header href="/catering-design/event-design-decor">Event Design & Decor</@header>
         <@item|{ node }|>
@@ -49,9 +65,12 @@ $ const adSlots = {
         </@item>
       </website-scheduled-content-list>
     </div>
+  </div>
+
+  <div class="row">
     <div class="col-lg-4 mb-block">
       <website-scheduled-content-list query={ sectionAlias: "catering-design/florals", limit: 5, queryFragment: contentListFragment } item-list={ modifiers: ["height-100"] }>
-        <@header href="/catering-design/florals">florals</@header>
+        <@header href="/catering-design/florals">Florals</@header>
         <@item|{ node }|>
           <bizbash-list-item content=node />
         </@item>
@@ -65,34 +84,15 @@ $ const adSlots = {
         </@item>
       </website-scheduled-content-list>
     </div>
-  </div>
-
-  <div class="row">
-    <div class="col-lg-4 mb-block">
-      <website-scheduled-content-list query={ sectionAlias: "catering-design/printing-graphics", limit: 5, queryFragment: contentListFragment } item-list={ modifiers: ["height-100"] }>
-        <@header href="/catering-design/printing-graphics">Printing & Graphics</@header>
-        <@item|{ node }|>
-          <bizbash-list-item content=node />
-        </@item>
-      </website-scheduled-content-list>
-    </div>
     <div class="col-lg-4 ad-rail">
       <endeavor-gam-ad-unit-display id="gpt-ad-rail1" />
     </div>
-    <div class="col-lg-4 mb-block">
-      <website-scheduled-content-list query={ sectionAlias: "catering-design/rentals", limit: 5, queryFragment: contentListFragment } item-list={ modifiers: ["height-100"] }>
-        <@header href="/catering-design/rentals">Rentals</@header>
-        <@item|{ node }|>
-          <bizbash-list-item content=node />
-        </@item>
-      </website-scheduled-content-list>
-    </div>
   </div>
 
   <div class="row">
     <div class="col-lg-4 mb-block">
-      <website-scheduled-content-list query={ sectionAlias: "catering-design/beverages", limit: 5, queryFragment: contentListFragment } item-list={ modifiers: ["height-100"] }>
-        <@header href="/catering-design/beverages">Beverages</@header>
+      <website-scheduled-content-list query={ sectionAlias: "catering-design/rentals", limit: 5, queryFragment: contentListFragment } item-list={ modifiers: ["height-100"] }>
+        <@header href="/catering-design/rentals">Rentals</@header>
         <@item|{ node }|>
           <bizbash-list-item content=node />
         </@item>
@@ -107,8 +107,8 @@ $ const adSlots = {
       </website-scheduled-content-list>
     </div>
     <div class="col-lg-4 mb-block">
-      <website-scheduled-content-list query={ sectionAlias: "catering-design/food-trends", limit: 5, queryFragment: contentListFragment } item-list={ modifiers: ["height-100"] }>
-        <@header href="/catering-design/food-trends">Food Trends</@header>
+      <website-scheduled-content-list query={ sectionAlias: "catering-design/printing-graphics", limit: 5, queryFragment: contentListFragment } item-list={ modifiers: ["height-100"] }>
+        <@header href="/catering-design/printing-graphics">Printing & Graphics</@header>
         <@item|{ node }|>
           <bizbash-list-item content=node />
         </@item>
